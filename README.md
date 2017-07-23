@@ -267,3 +267,24 @@ public class ManagementSystem {
         System.out.println("----------------------");
     }
 }
+
+//////////////// Code ends here ////////////////////////////
+/// new Issue.java class is as follows////
+
+package IssueManagement;
+
+import java.util.Date;
+
+public class Issue {
+   
+    String Title;
+    String Description;
+    String DepartmentCode;
+    Date DateReported;
+    Date Deadline;
+    String ReportedBy;
+    
+    String Status;
+    String Comment;
+    String AssignedTo;
+}
